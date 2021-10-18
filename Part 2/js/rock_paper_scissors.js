@@ -4,7 +4,7 @@
 function getUserChoice()
 {
     var userChoice = window.prompt("Select your choice (Rock/Paper/Scissors)");
-    if(userChoice === "Rock" || userChoice === "Paper" || userChoice === "scissors")
+    if(userChoice === "Rock" || userChoice === "Paper" || userChoice === "Scissors")
     {
         return userChoice;
     }
@@ -40,7 +40,7 @@ function gameWinner()
          
     if(userChoice === computerChoice )
     {
-        alert("Game is tie");
+        alert("Game is tied");
     }
     else if(userChoice === "Rock")
     {
